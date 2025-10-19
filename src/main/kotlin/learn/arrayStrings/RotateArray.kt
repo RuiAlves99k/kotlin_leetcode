@@ -22,7 +22,7 @@ package learn.arrayStrings
 class RotateArray {
     fun rotate(nums: IntArray, k: Int): IntArray {
         if (nums.size <= k) return nums
-        arrayOf<String>('M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I')
+        arrayOf<String>("M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I")
         val list = mutableListOf<Int>()
         for (i in 0..k){
             list.add(nums[i])
